@@ -179,5 +179,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - The contributors and the community for their support and feedback.
 
 ---
-
-Feel free to customize this README further to better fit your project's specifics and any additional features or instructions you may have.
