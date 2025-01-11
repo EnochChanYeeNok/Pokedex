@@ -1,0 +1,491 @@
+id,name,height_m,weight_kg,types,abilities,image
+1,bulbasaur,0.7,6.9,"grass, poison","overgrow, chlorophyll",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png
+2,ivysaur,1.0,13.0,"grass, poison","overgrow, chlorophyll",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png
+3,venusaur,2.0,100.0,"grass, poison","overgrow, chlorophyll",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png
+4,charmander,0.6,8.5,fire,"blaze, solar-power",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png
+5,charmeleon,1.1,19.0,fire,"blaze, solar-power",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png
+6,charizard,1.7,90.5,"fire, flying","blaze, solar-power",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png
+7,squirtle,0.5,9.0,water,"torrent, rain-dish",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png
+8,wartortle,1.0,22.5,water,"torrent, rain-dish",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png
+9,blastoise,1.6,85.5,water,"torrent, rain-dish",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png
+10,caterpie,0.3,2.9,bug,"shield-dust, run-away",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png
+11,metapod,0.7,9.9,bug,shed-skin,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png
+12,butterfree,1.1,32.0,"bug, flying","compound-eyes, tinted-lens",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png
+13,weedle,0.3,3.2,"bug, poison","shield-dust, run-away",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png
+14,kakuna,0.6,10.0,"bug, poison",shed-skin,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png
+15,beedrill,1.0,29.5,"bug, poison","swarm, sniper",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png
+16,pidgey,0.3,1.8,"normal, flying","keen-eye, tangled-feet, big-pecks",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png
+17,pidgeotto,1.1,30.0,"normal, flying","keen-eye, tangled-feet, big-pecks",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png
+18,pidgeot,1.5,39.5,"normal, flying","keen-eye, tangled-feet, big-pecks",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png
+19,rattata,0.3,3.5,normal,"run-away, guts, hustle",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png
+20,raticate,0.7,18.5,normal,"run-away, guts, hustle",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png
+21,spearow,0.3,2.0,"normal, flying","keen-eye, sniper",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png
+22,fearow,1.2,38.0,"normal, flying","keen-eye, sniper",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png
+23,ekans,2.0,6.9,poison,"intimidate, shed-skin, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png
+24,arbok,3.5,65.0,poison,"intimidate, shed-skin, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png
+25,pikachu,0.4,6.0,electric,"static, lightning-rod",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png
+26,raichu,0.8,30.0,electric,"static, lightning-rod",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png
+27,sandshrew,0.6,12.0,ground,"sand-veil, sand-rush",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png
+28,sandslash,1.0,29.5,ground,"sand-veil, sand-rush",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png
+29,nidoran-f,0.4,7.0,poison,"poison-point, rivalry, hustle",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png
+30,nidorina,0.8,20.0,poison,"poison-point, rivalry, hustle",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png
+31,nidoqueen,1.3,60.0,"poison, ground","poison-point, rivalry, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png
+32,nidoran-m,0.5,9.0,poison,"poison-point, rivalry, hustle",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png
+33,nidorino,0.9,19.5,poison,"poison-point, rivalry, hustle",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png
+34,nidoking,1.4,62.0,"poison, ground","poison-point, rivalry, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png
+35,clefairy,0.6,7.5,fairy,"cute-charm, magic-guard, friend-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png
+36,clefable,1.3,40.0,fairy,"cute-charm, magic-guard, unaware",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png
+37,vulpix,0.6,9.9,fire,"flash-fire, drought",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png
+38,ninetales,1.1,19.9,fire,"flash-fire, drought",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png
+39,jigglypuff,0.5,5.5,"normal, fairy","cute-charm, competitive, friend-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png
+40,wigglytuff,1.0,12.0,"normal, fairy","cute-charm, competitive, frisk",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png
+41,zubat,0.8,7.5,"poison, flying","inner-focus, infiltrator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png
+42,golbat,1.6,55.0,"poison, flying","inner-focus, infiltrator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png
+43,oddish,0.5,5.4,"grass, poison","chlorophyll, run-away",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png
+44,gloom,0.8,8.6,"grass, poison","chlorophyll, stench",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png
+45,vileplume,1.2,18.6,"grass, poison","chlorophyll, effect-spore",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png
+46,paras,0.3,5.4,"bug, grass","effect-spore, dry-skin, damp",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png
+47,parasect,1.0,29.5,"bug, grass","effect-spore, dry-skin, damp",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png
+48,venonat,1.0,30.0,"bug, poison","compound-eyes, tinted-lens, run-away",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png
+49,venomoth,1.5,12.5,"bug, poison","shield-dust, tinted-lens, wonder-skin",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png
+50,diglett,0.2,0.8,ground,"sand-veil, arena-trap, sand-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png
+51,dugtrio,0.7,33.3,ground,"sand-veil, arena-trap, sand-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png
+52,meowth,0.4,4.2,normal,"pickup, technician, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png
+53,persian,1.0,32.0,normal,"limber, technician, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png
+54,psyduck,0.8,19.6,water,"damp, cloud-nine, swift-swim",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png
+55,golduck,1.7,76.6,water,"damp, cloud-nine, swift-swim",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png
+56,mankey,0.5,28.0,fighting,"vital-spirit, anger-point, defiant",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png
+57,primeape,1.0,32.0,fighting,"vital-spirit, anger-point, defiant",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png
+58,growlithe,0.7,19.0,fire,"intimidate, flash-fire, justified",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png
+59,arcanine,1.9,155.0,fire,"intimidate, flash-fire, justified",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png
+60,poliwag,0.6,12.4,water,"water-absorb, damp, swift-swim",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png
+61,poliwhirl,1.0,20.0,water,"water-absorb, damp, swift-swim",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png
+62,poliwrath,1.3,54.0,"water, fighting","water-absorb, damp, swift-swim",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png
+63,abra,0.9,19.5,psychic,"synchronize, inner-focus, magic-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png
+64,kadabra,1.3,56.5,psychic,"synchronize, inner-focus, magic-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png
+65,alakazam,1.5,48.0,psychic,"synchronize, inner-focus, magic-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png
+66,machop,0.8,19.5,fighting,"guts, no-guard, steadfast",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png
+67,machoke,1.5,70.5,fighting,"guts, no-guard, steadfast",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png
+68,machamp,1.6,130.0,fighting,"guts, no-guard, steadfast",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png
+69,bellsprout,0.7,4.0,"grass, poison","chlorophyll, gluttony",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png
+70,weepinbell,1.0,6.4,"grass, poison","chlorophyll, gluttony",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png
+71,victreebel,1.7,15.5,"grass, poison","chlorophyll, gluttony",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png
+72,tentacool,0.9,45.5,"water, poison","clear-body, liquid-ooze, rain-dish",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png
+73,tentacruel,1.6,55.0,"water, poison","clear-body, liquid-ooze, rain-dish",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png
+74,geodude,0.4,20.0,"rock, ground","rock-head, sturdy, sand-veil",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png
+75,graveler,1.0,105.0,"rock, ground","rock-head, sturdy, sand-veil",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png
+76,golem,1.4,300.0,"rock, ground","rock-head, sturdy, sand-veil",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png
+77,ponyta,1.0,30.0,fire,"run-away, flash-fire, flame-body",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png
+78,rapidash,1.7,95.0,fire,"run-away, flash-fire, flame-body",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png
+79,slowpoke,1.2,36.0,"water, psychic","oblivious, own-tempo, regenerator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png
+80,slowbro,1.6,78.5,"water, psychic","oblivious, own-tempo, regenerator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png
+81,magnemite,0.3,6.0,"electric, steel","magnet-pull, sturdy, analytic",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png
+82,magneton,1.0,60.0,"electric, steel","magnet-pull, sturdy, analytic",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png
+83,farfetchd,0.8,15.0,"normal, flying","keen-eye, inner-focus, defiant",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png
+84,doduo,1.4,39.2,"normal, flying","run-away, early-bird, tangled-feet",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png
+85,dodrio,1.8,85.2,"normal, flying","run-away, early-bird, tangled-feet",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png
+86,seel,1.1,90.0,water,"thick-fat, hydration, ice-body",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png
+87,dewgong,1.7,120.0,"water, ice","thick-fat, hydration, ice-body",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png
+88,grimer,0.9,30.0,poison,"stench, sticky-hold, poison-touch",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png
+89,muk,1.2,30.0,poison,"stench, sticky-hold, poison-touch",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png
+90,shellder,0.3,4.0,water,"shell-armor, skill-link, overcoat",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png
+91,cloyster,1.5,132.5,"water, ice","shell-armor, skill-link, overcoat",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png
+92,gastly,1.3,0.1,"ghost, poison",levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png
+93,haunter,1.6,0.1,"ghost, poison",levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png
+94,gengar,1.5,40.5,"ghost, poison",cursed-body,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png
+95,onix,8.8,210.0,"rock, ground","rock-head, sturdy, weak-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png
+96,drowzee,1.0,32.4,psychic,"insomnia, forewarn, inner-focus",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png
+97,hypno,1.6,75.6,psychic,"insomnia, forewarn, inner-focus",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png
+98,krabby,0.4,6.5,water,"hyper-cutter, shell-armor, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png
+99,kingler,1.3,60.0,water,"hyper-cutter, shell-armor, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png
+100,voltorb,0.5,10.4,electric,"soundproof, static, aftermath",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png
+101,electrode,1.2,66.6,electric,"soundproof, static, aftermath",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png
+102,exeggcute,0.4,2.5,"grass, psychic","chlorophyll, harvest",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png
+103,exeggutor,2.0,120.0,"grass, psychic","chlorophyll, harvest",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png
+104,cubone,0.4,6.5,ground,"rock-head, lightning-rod, battle-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png
+105,marowak,1.0,45.0,ground,"rock-head, lightning-rod, battle-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png
+106,hitmonlee,1.5,49.8,fighting,"limber, reckless, unburden",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png
+107,hitmonchan,1.4,50.2,fighting,"keen-eye, iron-fist, inner-focus",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png
+108,lickitung,1.2,65.5,normal,"own-tempo, oblivious, cloud-nine",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png
+109,koffing,0.6,1.0,poison,"levitate, neutralizing-gas, stench",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png
+110,weezing,1.2,9.5,poison,"levitate, neutralizing-gas, stench",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png
+111,rhyhorn,1.0,115.0,"ground, rock","lightning-rod, rock-head, reckless",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png
+112,rhydon,1.9,120.0,"ground, rock","lightning-rod, rock-head, reckless",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png
+113,chansey,1.1,34.6,normal,"natural-cure, serene-grace, healer",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png
+114,tangela,1.0,35.0,grass,"chlorophyll, leaf-guard, regenerator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png
+115,kangaskhan,2.2,80.0,normal,"early-bird, scrappy, inner-focus",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png
+116,horsea,0.4,8.0,water,"swift-swim, sniper, damp",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png
+117,seadra,1.2,25.0,water,"poison-point, sniper, damp",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png
+118,goldeen,0.6,15.0,water,"swift-swim, water-veil, lightning-rod",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png
+119,seaking,1.3,39.0,water,"swift-swim, water-veil, lightning-rod",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png
+120,staryu,0.8,34.5,water,"illuminate, natural-cure, analytic",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png
+121,starmie,1.1,80.0,"water, psychic","illuminate, natural-cure, analytic",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png
+122,mr-mime,1.3,54.5,"psychic, fairy","soundproof, filter, technician",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png
+123,scyther,1.5,56.0,"bug, flying","swarm, technician, steadfast",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png
+124,jynx,1.4,40.6,"ice, psychic","oblivious, forewarn, dry-skin",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png
+125,electabuzz,1.1,30.0,electric,"static, vital-spirit",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png
+126,magmar,1.3,44.5,fire,"flame-body, vital-spirit",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png
+127,pinsir,1.5,55.0,bug,"hyper-cutter, mold-breaker, moxie",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png
+128,tauros,1.4,88.4,normal,"intimidate, anger-point, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png
+129,magikarp,0.9,10.0,water,"swift-swim, rattled",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png
+130,gyarados,6.5,235.0,"water, flying","intimidate, moxie",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png
+131,lapras,2.5,220.0,"water, ice","water-absorb, shell-armor, hydration",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png
+132,ditto,0.3,4.0,normal,"limber, imposter",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png
+133,eevee,0.3,6.5,normal,"run-away, adaptability, anticipation",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png
+134,vaporeon,1.0,29.0,water,"water-absorb, hydration",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png
+135,jolteon,0.8,24.5,electric,"volt-absorb, quick-feet",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png
+136,flareon,0.9,25.0,fire,"flash-fire, guts",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png
+137,porygon,0.8,36.5,normal,"trace, download, analytic",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png
+138,omanyte,0.4,7.5,"rock, water","swift-swim, shell-armor, weak-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png
+139,omastar,1.0,35.0,"rock, water","swift-swim, shell-armor, weak-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png
+140,kabuto,0.5,11.5,"rock, water","swift-swim, battle-armor, weak-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png
+141,kabutops,1.3,40.5,"rock, water","swift-swim, battle-armor, weak-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png
+142,aerodactyl,1.8,59.0,"rock, flying","rock-head, pressure, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png
+143,snorlax,2.1,460.0,normal,"immunity, thick-fat, gluttony",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png
+144,articuno,1.7,55.4,"ice, flying","pressure, snow-cloak",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png
+145,zapdos,1.6,52.6,"electric, flying","pressure, static",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png
+146,moltres,2.0,60.0,"fire, flying","pressure, flame-body",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png
+147,dratini,1.8,3.3,dragon,"shed-skin, marvel-scale",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png
+148,dragonair,4.0,16.5,dragon,"shed-skin, marvel-scale",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png
+149,dragonite,2.2,210.0,"dragon, flying","inner-focus, multiscale",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png
+150,mewtwo,2.0,122.0,psychic,"pressure, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png
+151,mew,0.4,4.0,psychic,synchronize,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png
+152,chikorita,0.9,6.4,grass,"overgrow, leaf-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png
+153,bayleef,1.2,15.8,grass,"overgrow, leaf-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png
+154,meganium,1.8,100.5,grass,"overgrow, leaf-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png
+155,cyndaquil,0.5,7.9,fire,"blaze, flash-fire",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png
+156,quilava,0.9,19.0,fire,"blaze, flash-fire",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png
+157,typhlosion,1.7,79.5,fire,"blaze, flash-fire",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png
+158,totodile,0.6,9.5,water,"torrent, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png
+159,croconaw,1.1,25.0,water,"torrent, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png
+160,feraligatr,2.3,88.8,water,"torrent, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png
+161,sentret,0.8,6.0,normal,"run-away, keen-eye, frisk",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png
+162,furret,1.8,32.5,normal,"run-away, keen-eye, frisk",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/162.png
+163,hoothoot,0.7,21.2,"normal, flying","insomnia, keen-eye, tinted-lens",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png
+164,noctowl,1.6,40.8,"normal, flying","insomnia, keen-eye, tinted-lens",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png
+165,ledyba,1.0,10.8,"bug, flying","swarm, early-bird, rattled",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png
+166,ledian,1.4,35.6,"bug, flying","swarm, early-bird, iron-fist",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/166.png
+167,spinarak,0.5,8.5,"bug, poison","swarm, insomnia, sniper",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png
+168,ariados,1.1,33.5,"bug, poison","swarm, insomnia, sniper",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png
+169,crobat,1.8,75.0,"poison, flying","inner-focus, infiltrator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png
+170,chinchou,0.5,12.0,"water, electric","volt-absorb, illuminate, water-absorb",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png
+171,lanturn,1.2,22.5,"water, electric","volt-absorb, illuminate, water-absorb",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png
+172,pichu,0.3,2.0,electric,"static, lightning-rod",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png
+173,cleffa,0.3,3.0,fairy,"cute-charm, magic-guard, friend-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png
+174,igglybuff,0.3,1.0,"normal, fairy","cute-charm, competitive, friend-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png
+175,togepi,0.3,1.5,fairy,"hustle, serene-grace, super-luck",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png
+176,togetic,0.6,3.2,"fairy, flying","hustle, serene-grace, super-luck",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png
+177,natu,0.2,2.0,"psychic, flying","synchronize, early-bird, magic-bounce",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/177.png
+178,xatu,1.5,15.0,"psychic, flying","synchronize, early-bird, magic-bounce",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/178.png
+179,mareep,0.6,7.8,electric,"static, plus",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png
+180,flaaffy,0.8,13.3,electric,"static, plus",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/180.png
+181,ampharos,1.4,61.5,electric,"static, plus",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png
+182,bellossom,0.4,5.8,grass,"chlorophyll, healer",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png
+183,marill,0.4,8.5,"water, fairy","thick-fat, huge-power, sap-sipper",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png
+184,azumarill,0.8,28.5,"water, fairy","thick-fat, huge-power, sap-sipper",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png
+185,sudowoodo,1.2,38.0,rock,"sturdy, rock-head, rattled",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png
+186,politoed,1.1,33.9,water,"water-absorb, damp, drizzle",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png
+187,hoppip,0.4,0.5,"grass, flying","chlorophyll, leaf-guard, infiltrator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/187.png
+188,skiploom,0.6,1.0,"grass, flying","chlorophyll, leaf-guard, infiltrator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/188.png
+189,jumpluff,0.8,3.0,"grass, flying","chlorophyll, leaf-guard, infiltrator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/189.png
+190,aipom,0.8,11.5,normal,"run-away, pickup, skill-link",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png
+191,sunkern,0.3,1.8,grass,"chlorophyll, solar-power, early-bird",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png
+192,sunflora,0.8,8.5,grass,"chlorophyll, solar-power, early-bird",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png
+193,yanma,1.2,38.0,"bug, flying","speed-boost, compound-eyes, frisk",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png
+194,wooper,0.4,8.5,"water, ground","damp, water-absorb, unaware",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png
+195,quagsire,1.4,75.0,"water, ground","damp, water-absorb, unaware",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png
+196,espeon,0.9,26.5,psychic,"synchronize, magic-bounce",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png
+197,umbreon,1.0,27.0,dark,"synchronize, inner-focus",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png
+198,murkrow,0.5,2.1,"dark, flying","insomnia, super-luck, prankster",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png
+199,slowking,2.0,79.5,"water, psychic","oblivious, own-tempo, regenerator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/199.png
+200,misdreavus,0.7,1.0,ghost,levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png
+201,unown,0.5,5.0,psychic,levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201.png
+202,wobbuffet,1.3,28.5,psychic,"shadow-tag, telepathy",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/202.png
+203,girafarig,1.5,41.5,"normal, psychic","inner-focus, early-bird, sap-sipper",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png
+204,pineco,0.6,7.2,bug,"sturdy, overcoat",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/204.png
+205,forretress,1.2,125.8,"bug, steel","sturdy, overcoat",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/205.png
+206,dunsparce,1.5,14.0,normal,"serene-grace, run-away, rattled",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/206.png
+207,gligar,1.1,64.8,"ground, flying","hyper-cutter, sand-veil, immunity",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png
+208,steelix,9.2,400.0,"steel, ground","rock-head, sturdy, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png
+209,snubbull,0.6,7.8,fairy,"intimidate, run-away, rattled",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/209.png
+210,granbull,1.4,48.7,fairy,"intimidate, quick-feet, rattled",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/210.png
+211,qwilfish,0.5,3.9,"water, poison","poison-point, swift-swim, intimidate",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/211.png
+212,scizor,1.8,118.0,"bug, steel","swarm, technician, light-metal",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png
+213,shuckle,0.6,20.5,"bug, rock","sturdy, gluttony, contrary",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png
+214,heracross,1.5,54.0,"bug, fighting","swarm, guts, moxie",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png
+215,sneasel,0.9,28.0,"dark, ice","inner-focus, keen-eye, pickpocket",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png
+216,teddiursa,0.6,8.8,normal,"pickup, quick-feet, honey-gather",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/216.png
+217,ursaring,1.8,125.8,normal,"guts, quick-feet, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/217.png
+218,slugma,0.7,35.0,fire,"magma-armor, flame-body, weak-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/218.png
+219,magcargo,0.8,55.0,"fire, rock","magma-armor, flame-body, weak-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/219.png
+220,swinub,0.4,6.5,"ice, ground","oblivious, snow-cloak, thick-fat",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/220.png
+221,piloswine,1.1,55.8,"ice, ground","oblivious, snow-cloak, thick-fat",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/221.png
+222,corsola,0.6,5.0,"water, rock","hustle, natural-cure, regenerator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png
+223,remoraid,0.6,12.0,water,"hustle, sniper, moody",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png
+224,octillery,0.9,28.5,water,"suction-cups, sniper, moody",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/224.png
+225,delibird,0.9,16.0,"ice, flying","vital-spirit, hustle, insomnia",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/225.png
+226,mantine,2.1,220.0,"water, flying","swift-swim, water-absorb, water-veil",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/226.png
+227,skarmory,1.7,50.5,"steel, flying","keen-eye, sturdy, weak-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png
+228,houndour,0.6,10.8,"dark, fire","early-bird, flash-fire, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png
+229,houndoom,1.4,35.0,"dark, fire","early-bird, flash-fire, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png
+230,kingdra,1.8,152.0,"water, dragon","swift-swim, sniper, damp",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png
+231,phanpy,0.5,33.5,ground,"pickup, sand-veil",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/231.png
+232,donphan,1.1,120.0,ground,"sturdy, sand-veil",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/232.png
+233,porygon2,0.6,32.5,normal,"trace, download, analytic",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png
+234,stantler,1.4,71.2,normal,"intimidate, frisk, sap-sipper",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/234.png
+235,smeargle,1.2,58.0,normal,"own-tempo, technician, moody",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png
+236,tyrogue,0.7,21.0,fighting,"guts, steadfast, vital-spirit",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png
+237,hitmontop,1.4,48.0,fighting,"intimidate, technician, steadfast",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/237.png
+238,smoochum,0.4,6.0,"ice, psychic","oblivious, forewarn, hydration",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/238.png
+239,elekid,0.6,23.5,electric,"static, vital-spirit",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png
+240,magby,0.7,21.4,fire,"flame-body, vital-spirit",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png
+241,miltank,1.2,75.5,normal,"thick-fat, scrappy, sap-sipper",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/241.png
+242,blissey,1.5,46.8,normal,"natural-cure, serene-grace, healer",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png
+243,raikou,1.9,178.0,electric,"pressure, inner-focus",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/243.png
+244,entei,2.1,198.0,fire,"pressure, inner-focus",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/244.png
+245,suicune,2.0,187.0,water,"pressure, inner-focus",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png
+246,larvitar,0.6,72.0,"rock, ground","guts, sand-veil",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/246.png
+247,pupitar,1.2,152.0,"rock, ground",shed-skin,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/247.png
+248,tyranitar,2.0,202.0,"rock, dark","sand-stream, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png
+249,lugia,5.2,216.0,"psychic, flying","pressure, multiscale",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png
+250,ho-oh,3.8,199.0,"fire, flying","pressure, regenerator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/250.png
+251,celebi,0.6,5.0,"psychic, grass",natural-cure,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/251.png
+252,treecko,0.5,5.0,grass,"overgrow, unburden",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png
+253,grovyle,0.9,21.6,grass,"overgrow, unburden",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png
+254,sceptile,1.7,52.2,grass,"overgrow, unburden",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png
+255,torchic,0.4,2.5,fire,"blaze, speed-boost",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png
+256,combusken,0.9,19.5,"fire, fighting","blaze, speed-boost",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png
+257,blaziken,1.9,52.0,"fire, fighting","blaze, speed-boost",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png
+258,mudkip,0.4,7.6,water,"torrent, damp",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png
+259,marshtomp,0.7,28.0,"water, ground","torrent, damp",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/259.png
+260,swampert,1.5,81.9,"water, ground","torrent, damp",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png
+261,poochyena,0.5,13.6,dark,"run-away, quick-feet, rattled",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/261.png
+262,mightyena,1.0,37.0,dark,"intimidate, quick-feet, moxie",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/262.png
+263,zigzagoon,0.4,17.5,normal,"pickup, gluttony, quick-feet",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/263.png
+264,linoone,0.5,32.5,normal,"pickup, gluttony, quick-feet",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/264.png
+265,wurmple,0.3,3.6,bug,"shield-dust, run-away",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png
+266,silcoon,0.6,10.0,bug,shed-skin,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png
+267,beautifly,1.0,28.4,"bug, flying","swarm, rivalry",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png
+268,cascoon,0.7,11.5,bug,shed-skin,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png
+269,dustox,1.2,31.6,"bug, poison","shield-dust, compound-eyes",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png
+270,lotad,0.5,2.6,"water, grass","swift-swim, rain-dish, own-tempo",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/270.png
+271,lombre,1.2,32.5,"water, grass","swift-swim, rain-dish, own-tempo",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/271.png
+272,ludicolo,1.5,55.0,"water, grass","swift-swim, rain-dish, own-tempo",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/272.png
+273,seedot,0.5,4.0,grass,"chlorophyll, early-bird, pickpocket",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/273.png
+274,nuzleaf,1.0,28.0,"grass, dark","chlorophyll, early-bird, pickpocket",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/274.png
+275,shiftry,1.3,59.6,"grass, dark","chlorophyll, wind-rider, pickpocket",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/275.png
+276,taillow,0.3,2.3,"normal, flying","guts, scrappy",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png
+277,swellow,0.7,19.8,"normal, flying","guts, scrappy",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/277.png
+278,wingull,0.6,9.5,"water, flying","keen-eye, hydration, rain-dish",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png
+279,pelipper,1.2,28.0,"water, flying","keen-eye, drizzle, rain-dish",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png
+280,ralts,0.4,6.6,"psychic, fairy","synchronize, trace, telepathy",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png
+281,kirlia,0.8,20.2,"psychic, fairy","synchronize, trace, telepathy",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png
+282,gardevoir,1.6,48.4,"psychic, fairy","synchronize, trace, telepathy",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png
+283,surskit,0.5,1.7,"bug, water","swift-swim, rain-dish",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/283.png
+284,masquerain,0.8,3.6,"bug, flying","intimidate, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/284.png
+285,shroomish,0.4,4.5,grass,"effect-spore, poison-heal, quick-feet",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/285.png
+286,breloom,1.2,39.2,"grass, fighting","effect-spore, poison-heal, technician",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/286.png
+287,slakoth,0.8,24.0,normal,truant,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/287.png
+288,vigoroth,1.4,46.5,normal,vital-spirit,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/288.png
+289,slaking,2.0,130.5,normal,truant,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png
+290,nincada,0.5,5.5,"bug, ground","compound-eyes, run-away",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png
+291,ninjask,0.8,12.0,"bug, flying","speed-boost, infiltrator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png
+292,shedinja,0.8,1.2,"bug, ghost",wonder-guard,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png
+293,whismur,0.6,16.3,normal,"soundproof, rattled",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/293.png
+294,loudred,1.0,40.5,normal,"soundproof, scrappy",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/294.png
+295,exploud,1.5,84.0,normal,"soundproof, scrappy",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/295.png
+296,makuhita,1.0,86.4,fighting,"thick-fat, guts, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/296.png
+297,hariyama,2.3,253.8,fighting,"thick-fat, guts, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/297.png
+298,azurill,0.2,2.0,"normal, fairy","thick-fat, huge-power, sap-sipper",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png
+299,nosepass,1.0,97.0,rock,"sturdy, magnet-pull, sand-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png
+300,skitty,0.6,11.0,normal,"cute-charm, normalize, wonder-skin",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/300.png
+301,delcatty,1.1,32.6,normal,"cute-charm, normalize, wonder-skin",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/301.png
+302,sableye,0.5,11.0,"dark, ghost","keen-eye, stall, prankster",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png
+303,mawile,0.6,11.5,"steel, fairy","hyper-cutter, intimidate, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/303.png
+304,aron,0.4,60.0,"steel, rock","sturdy, rock-head, heavy-metal",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/304.png
+305,lairon,0.9,120.0,"steel, rock","sturdy, rock-head, heavy-metal",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/305.png
+306,aggron,2.1,360.0,"steel, rock","sturdy, rock-head, heavy-metal",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png
+307,meditite,0.6,11.2,"fighting, psychic","pure-power, telepathy",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png
+308,medicham,1.3,31.5,"fighting, psychic","pure-power, telepathy",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/308.png
+309,electrike,0.6,15.2,electric,"static, lightning-rod, minus",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/309.png
+310,manectric,1.5,40.2,electric,"static, lightning-rod, minus",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/310.png
+311,plusle,0.4,4.2,electric,"plus, lightning-rod",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/311.png
+312,minun,0.4,4.2,electric,"minus, volt-absorb",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/312.png
+313,volbeat,0.7,17.7,bug,"illuminate, swarm, prankster",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/313.png
+314,illumise,0.6,17.7,bug,"oblivious, tinted-lens, prankster",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/314.png
+315,roselia,0.3,2.0,"grass, poison","natural-cure, poison-point, leaf-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png
+316,gulpin,0.4,10.3,poison,"liquid-ooze, sticky-hold, gluttony",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/316.png
+317,swalot,1.7,80.0,poison,"liquid-ooze, sticky-hold, gluttony",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/317.png
+318,carvanha,0.8,20.8,"water, dark","rough-skin, speed-boost",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/318.png
+319,sharpedo,1.8,88.8,"water, dark","rough-skin, speed-boost",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/319.png
+320,wailmer,2.0,130.0,water,"water-veil, oblivious, pressure",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/320.png
+321,wailord,14.5,398.0,water,"water-veil, oblivious, pressure",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png
+322,numel,0.7,24.0,"fire, ground","oblivious, simple, own-tempo",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/322.png
+323,camerupt,1.9,220.0,"fire, ground","magma-armor, solid-rock, anger-point",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png
+324,torkoal,0.5,80.4,fire,"white-smoke, drought, shell-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/324.png
+325,spoink,0.7,30.6,psychic,"thick-fat, own-tempo, gluttony",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/325.png
+326,grumpig,0.9,71.5,psychic,"thick-fat, own-tempo, gluttony",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png
+327,spinda,1.1,5.0,normal,"own-tempo, tangled-feet, contrary",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/327.png
+328,trapinch,0.7,15.0,ground,"hyper-cutter, arena-trap, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/328.png
+329,vibrava,1.1,15.3,"ground, dragon",levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/329.png
+330,flygon,2.0,82.0,"ground, dragon",levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/330.png
+331,cacnea,0.4,51.3,grass,"sand-veil, water-absorb",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/331.png
+332,cacturne,1.3,77.4,"grass, dark","sand-veil, water-absorb",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/332.png
+333,swablu,0.4,1.2,"normal, flying","natural-cure, cloud-nine",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png
+334,altaria,1.1,20.6,"dragon, flying","natural-cure, cloud-nine",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png
+335,zangoose,1.3,40.3,normal,"immunity, toxic-boost",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/335.png
+336,seviper,2.7,52.5,poison,"shed-skin, infiltrator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/336.png
+337,lunatone,1.0,168.0,"rock, psychic",levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/337.png
+338,solrock,1.2,154.0,"rock, psychic",levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/338.png
+339,barboach,0.4,1.9,"water, ground","oblivious, anticipation, hydration",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png
+340,whiscash,0.9,23.6,"water, ground","oblivious, anticipation, hydration",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/340.png
+341,corphish,0.6,11.5,water,"hyper-cutter, shell-armor, adaptability",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/341.png
+342,crawdaunt,1.1,32.8,"water, dark","hyper-cutter, shell-armor, adaptability",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png
+343,baltoy,0.5,21.5,"ground, psychic",levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/343.png
+344,claydol,1.5,108.0,"ground, psychic",levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/344.png
+345,lileep,1.0,23.8,"rock, grass","suction-cups, storm-drain",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/345.png
+346,cradily,1.5,60.4,"rock, grass","suction-cups, storm-drain",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png
+347,anorith,0.7,12.5,"rock, bug","battle-armor, swift-swim",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/347.png
+348,armaldo,1.5,68.2,"rock, bug","battle-armor, swift-swim",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/348.png
+349,feebas,0.6,7.4,water,"swift-swim, oblivious, adaptability",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png
+350,milotic,6.2,162.0,water,"marvel-scale, competitive, cute-charm",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png
+351,castform,0.3,0.8,normal,forecast,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/351.png
+352,kecleon,1.0,22.0,normal,"color-change, protean",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/352.png
+353,shuppet,0.6,2.3,ghost,"insomnia, frisk, cursed-body",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/353.png
+354,banette,1.1,12.5,ghost,"insomnia, frisk, cursed-body",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/354.png
+355,duskull,0.8,15.0,ghost,"levitate, frisk",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png
+356,dusclops,1.6,30.6,ghost,"pressure, frisk",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png
+357,tropius,2.0,100.0,"grass, flying","chlorophyll, solar-power, harvest",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/357.png
+358,chimecho,0.6,1.0,psychic,levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png
+359,absol,1.2,47.0,dark,"pressure, super-luck, justified",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png
+360,wynaut,0.6,14.0,psychic,"shadow-tag, telepathy",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/360.png
+361,snorunt,0.7,16.8,ice,"inner-focus, ice-body, moody",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png
+362,glalie,1.5,256.5,ice,"inner-focus, ice-body, moody",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/362.png
+363,spheal,0.8,39.5,"ice, water","thick-fat, ice-body, oblivious",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/363.png
+364,sealeo,1.1,87.6,"ice, water","thick-fat, ice-body, oblivious",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/364.png
+365,walrein,1.4,150.6,"ice, water","thick-fat, ice-body, oblivious",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/365.png
+366,clamperl,0.4,52.5,water,"shell-armor, rattled",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png
+367,huntail,1.7,27.0,water,"swift-swim, water-veil",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/367.png
+368,gorebyss,1.8,22.6,water,"swift-swim, hydration",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/368.png
+369,relicanth,1.0,23.4,"water, rock","swift-swim, rock-head, sturdy",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/369.png
+370,luvdisc,0.6,8.7,water,"swift-swim, hydration",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/370.png
+371,bagon,0.6,42.1,dragon,"rock-head, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/371.png
+372,shelgon,1.1,110.5,dragon,"rock-head, overcoat",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/372.png
+373,salamence,1.5,102.6,"dragon, flying","intimidate, moxie",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/373.png
+374,beldum,0.6,95.2,"steel, psychic","clear-body, light-metal",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/374.png
+375,metang,1.2,202.5,"steel, psychic","clear-body, light-metal",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/375.png
+376,metagross,1.6,550.0,"steel, psychic","clear-body, light-metal",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png
+377,regirock,1.7,230.0,rock,"clear-body, sturdy",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/377.png
+378,regice,1.8,175.0,ice,"clear-body, ice-body",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/378.png
+379,registeel,1.9,205.0,steel,"clear-body, light-metal",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/379.png
+380,latias,1.4,40.0,"dragon, psychic",levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/380.png
+381,latios,2.0,60.0,"dragon, psychic",levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/381.png
+382,kyogre,4.5,352.0,water,drizzle,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png
+383,groudon,3.5,950.0,ground,drought,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png
+384,rayquaza,7.0,206.5,"dragon, flying",air-lock,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png
+385,jirachi,0.3,1.1,"steel, psychic",serene-grace,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/385.png
+386,deoxys-normal,1.7,60.8,psychic,pressure,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/386.png
+387,turtwig,0.4,10.2,grass,"overgrow, shell-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png
+388,grotle,1.1,97.0,grass,"overgrow, shell-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/388.png
+389,torterra,2.2,310.0,"grass, ground","overgrow, shell-armor",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png
+390,chimchar,0.5,6.2,fire,"blaze, iron-fist",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png
+391,monferno,0.9,22.0,"fire, fighting","blaze, iron-fist",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/391.png
+392,infernape,1.2,55.0,"fire, fighting","blaze, iron-fist",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png
+393,piplup,0.4,5.2,water,"torrent, competitive",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png
+394,prinplup,0.8,23.0,water,"torrent, competitive",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/394.png
+395,empoleon,1.7,84.5,"water, steel","torrent, competitive",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png
+396,starly,0.3,2.0,"normal, flying","keen-eye, reckless",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png
+397,staravia,0.6,15.5,"normal, flying","intimidate, reckless",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/397.png
+398,staraptor,1.2,24.9,"normal, flying","intimidate, reckless",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png
+399,bidoof,0.5,20.0,normal,"simple, unaware, moody",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png
+400,bibarel,1.0,31.5,"normal, water","simple, unaware, moody",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png
+401,kricketot,0.3,2.2,bug,"shed-skin, run-away",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png
+402,kricketune,1.0,25.5,bug,"swarm, technician",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png
+403,shinx,0.5,9.5,electric,"rivalry, intimidate, guts",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/403.png
+404,luxio,0.9,30.5,electric,"rivalry, intimidate, guts",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/404.png
+405,luxray,1.4,42.0,electric,"rivalry, intimidate, guts",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png
+406,budew,0.2,1.2,"grass, poison","natural-cure, poison-point, leaf-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png
+407,roserade,0.9,14.5,"grass, poison","natural-cure, poison-point, technician",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png
+408,cranidos,0.9,31.5,rock,"mold-breaker, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png
+409,rampardos,1.6,102.5,rock,"mold-breaker, sheer-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png
+410,shieldon,0.5,57.0,"rock, steel","sturdy, soundproof",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png
+411,bastiodon,1.3,149.5,"rock, steel","sturdy, soundproof",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png
+412,burmy,0.2,3.4,bug,"shed-skin, overcoat",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png
+413,wormadam-plant,0.5,6.5,"bug, grass","anticipation, overcoat",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/413.png
+414,mothim,0.9,23.3,"bug, flying","swarm, tinted-lens",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/414.png
+415,combee,0.3,5.5,"bug, flying","honey-gather, hustle",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png
+416,vespiquen,1.2,38.5,"bug, flying","pressure, unnerve",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png
+417,pachirisu,0.4,3.9,electric,"run-away, pickup, volt-absorb",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/417.png
+418,buizel,0.7,29.5,water,"swift-swim, water-veil",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png
+419,floatzel,1.1,33.5,water,"swift-swim, water-veil",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/419.png
+420,cherubi,0.4,3.3,grass,chlorophyll,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png
+421,cherrim,0.5,9.3,grass,flower-gift,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png
+422,shellos,0.3,6.3,water,"sticky-hold, storm-drain, sand-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png
+423,gastrodon,0.9,29.9,"water, ground","sticky-hold, storm-drain, sand-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png
+424,ambipom,1.2,20.3,normal,"technician, pickup, skill-link",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png
+425,drifloon,0.4,1.2,"ghost, flying","aftermath, unburden, flare-boost",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/425.png
+426,drifblim,1.2,15.0,"ghost, flying","aftermath, unburden, flare-boost",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png
+427,buneary,0.4,5.5,normal,"run-away, klutz, limber",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png
+428,lopunny,1.2,33.3,normal,"cute-charm, klutz, limber",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png
+429,mismagius,0.9,4.4,ghost,levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png
+430,honchkrow,0.9,27.3,"dark, flying","insomnia, super-luck, moxie",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png
+431,glameow,0.5,3.9,normal,"limber, own-tempo, keen-eye",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png
+432,purugly,1.0,43.8,normal,"thick-fat, own-tempo, defiant",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png
+433,chingling,0.2,0.6,psychic,levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png
+434,stunky,0.4,19.2,"poison, dark","stench, aftermath, keen-eye",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png
+435,skuntank,1.0,38.0,"poison, dark","stench, aftermath, keen-eye",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/435.png
+436,bronzor,0.5,60.5,"steel, psychic","levitate, heatproof, heavy-metal",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png
+437,bronzong,1.3,187.0,"steel, psychic","levitate, heatproof, heavy-metal",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png
+438,bonsly,0.5,15.0,rock,"sturdy, rock-head, rattled",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png
+439,mime-jr,0.6,13.0,"psychic, fairy","soundproof, filter, technician",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png
+440,happiny,0.6,24.4,normal,"natural-cure, serene-grace, friend-guard",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png
+441,chatot,0.5,1.9,"normal, flying","keen-eye, tangled-feet, big-pecks",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/441.png
+442,spiritomb,1.0,108.0,"ghost, dark","pressure, infiltrator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png
+443,gible,0.7,20.5,"dragon, ground","sand-veil, rough-skin",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png
+444,gabite,1.4,56.0,"dragon, ground","sand-veil, rough-skin",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png
+445,garchomp,1.9,95.0,"dragon, ground","sand-veil, rough-skin",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png
+446,munchlax,0.6,105.0,normal,"pickup, thick-fat, gluttony",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png
+447,riolu,0.7,20.2,fighting,"steadfast, inner-focus, prankster",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png
+448,lucario,1.2,54.0,"fighting, steel","steadfast, inner-focus, justified",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png
+449,hippopotas,0.8,49.5,ground,"sand-stream, sand-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/449.png
+450,hippowdon,2.0,300.0,ground,"sand-stream, sand-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png
+451,skorupi,0.8,12.0,"poison, bug","battle-armor, sniper, keen-eye",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/451.png
+452,drapion,1.3,61.5,"poison, dark","battle-armor, sniper, keen-eye",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png
+453,croagunk,0.7,23.0,"poison, fighting","anticipation, dry-skin, poison-touch",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png
+454,toxicroak,1.3,44.4,"poison, fighting","anticipation, dry-skin, poison-touch",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png
+455,carnivine,1.4,27.0,grass,levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/455.png
+456,finneon,0.4,7.0,water,"swift-swim, storm-drain, water-veil",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png
+457,lumineon,1.2,24.0,water,"swift-swim, storm-drain, water-veil",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png
+458,mantyke,1.0,65.0,"water, flying","swift-swim, water-absorb, water-veil",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png
+459,snover,1.0,50.5,"grass, ice","snow-warning, soundproof",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png
+460,abomasnow,2.2,135.5,"grass, ice","snow-warning, soundproof",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png
+461,weavile,1.1,34.0,"dark, ice","pressure, pickpocket",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png
+462,magnezone,1.2,180.0,"electric, steel","magnet-pull, sturdy, analytic",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png
+463,lickilicky,1.7,140.0,normal,"own-tempo, oblivious, cloud-nine",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png
+464,rhyperior,2.4,282.8,"ground, rock","lightning-rod, solid-rock, reckless",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png
+465,tangrowth,2.0,128.6,grass,"chlorophyll, leaf-guard, regenerator",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png
+466,electivire,1.8,138.6,electric,"motor-drive, vital-spirit",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png
+467,magmortar,1.6,68.0,fire,"flame-body, vital-spirit",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png
+468,togekiss,1.5,38.0,"fairy, flying","hustle, serene-grace, super-luck",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png
+469,yanmega,1.9,51.5,"bug, flying","speed-boost, tinted-lens, frisk",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png
+470,leafeon,1.0,25.5,grass,"leaf-guard, chlorophyll",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png
+471,glaceon,0.8,25.9,ice,"snow-cloak, ice-body",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png
+472,gliscor,2.0,42.5,"ground, flying","hyper-cutter, sand-veil, poison-heal",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png
+473,mamoswine,2.5,291.0,"ice, ground","oblivious, snow-cloak, thick-fat",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png
+474,porygon-z,0.9,34.0,normal,"adaptability, download, analytic",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png
+475,gallade,1.6,52.0,"psychic, fighting","steadfast, sharpness, justified",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png
+476,probopass,1.4,340.0,"rock, steel","sturdy, magnet-pull, sand-force",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png
+477,dusknoir,2.2,106.6,ghost,"pressure, frisk",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png
+478,froslass,1.3,26.6,"ice, ghost","snow-cloak, cursed-body",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/478.png
+479,rotom,0.3,0.3,"electric, ghost",levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png
+480,uxie,0.3,0.3,psychic,levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png
+481,mesprit,0.3,0.3,psychic,levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/481.png
+482,azelf,0.3,0.3,psychic,levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/482.png
+483,dialga,5.4,683.0,"steel, dragon","pressure, telepathy",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png
+484,palkia,4.2,336.0,"water, dragon","pressure, telepathy",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png
+485,heatran,1.7,430.0,"fire, steel","flash-fire, flame-body",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png
+486,regigigas,3.7,420.0,normal,slow-start,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/486.png
+487,giratina-altered,4.5,750.0,"ghost, dragon","pressure, telepathy",https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png
+488,cresselia,1.5,85.6,psychic,levitate,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png
+489,phione,0.4,3.1,water,hydration,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png
+490,manaphy,0.3,1.4,water,hydration,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png
