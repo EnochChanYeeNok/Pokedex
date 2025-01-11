@@ -33,7 +33,7 @@ h1 {
     font-size: 16px;
 }
 
-#search-button, #load-all-button {
+#search-button, #load-all-button, #type-calculator-button {
     padding: 10px 20px;
     border: none;
     background-color: #3b4cca;
@@ -44,7 +44,7 @@ h1 {
     margin-left: 10px;
 }
 
-#search-button:hover, #load-all-button:hover {
+#search-button:hover, #load-all-button:hover, #type-calculator-button:hover {
     background-color: #2a35a0;
 }
 
