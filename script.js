@@ -1,12 +1,15 @@
 // script.js
 
+document.addEventListener('DOMContentLoaded', () => {
+    loadAllPokemons();
+});
+
 document.getElementById('search-button').addEventListener('click', fetchPokemon);
 document.getElementById('pokemon-input').addEventListener('keypress', function(e) {
     if (e.key === 'Enter') {
         fetchPokemon();
     }
 });
-document.getElementById('load-all-button').addEventListener('click', loadAllPokemons);
 
 function fetchPokemon() {
     const query = document.getElementById('pokemon-input').value.toLowerCase().trim();
