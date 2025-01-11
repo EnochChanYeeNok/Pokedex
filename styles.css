@@ -107,3 +107,58 @@ h1 {
     font-size: 14px;
     color: #333;
 }
+
+/* Detailed Pokémon Page Styles */
+.pokemon-details-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffcb05;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #3b4cca;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}
+
+.pokemon-details {
+    text-align: center;
+}
+
+.detail-image {
+    width: 200px;
+    height: 200px;
+}
+
+.pokemon-details h2 {
+    text-transform: capitalize;
+    color: #3b4cca;
+}
+
+.pokemon-details ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.pokemon-details li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}

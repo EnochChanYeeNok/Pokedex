@@ -24,13 +24,15 @@ function fetchPokemon() {
             }
             return response.json();
         })
-        .then(data => displayPokemon(data))
+        .then(data => {
+            // Instead of displaying on the same page, navigate to the detailed page
+            window.location.href = `pokemon.html?id=${data.id}`;
+        })
         .catch(error => {
             alert(error.message);
             document.getElementById('pokemon-data').style.display = 'none';
         });
 }
-
 function displayPokemon(pokemon) {
     const pokemonDataDiv = document.getElementById('pokemon-data');
     pokemonDataDiv.innerHTML = `
@@ -70,14 +72,25 @@ function displayAllPokemons(pokemons) {
 
         const card = document.createElement('div');
         card.classList.add('pokemon-card');
+        card.setAttribute('data-id', pokemon.id);
+        card.setAttribute('data-name', pokemon.name.toLowerCase());
 
         card.innerHTML = `
             <img src="${pokemon.image}" alt="${pokemon.name}">
-            <h3>${pokemon.name}</h3>
+            <h3>${capitalize(pokemon.name)}</h3>
             <p>#${pokemon.id}</p>
             <p>Type: ${pokemon.types}</p>
         `;
 
+        // Add click event listener to navigate to the detailed page
+        card.addEventListener('click', () => {
+            window.location.href = `pokemon.html?id=${pokemon.id}`;
+        });
+
         allPokemonsDiv.appendChild(card);
     });
+}
+
+function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
 }
