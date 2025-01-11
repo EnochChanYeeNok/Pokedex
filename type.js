@@ -5,7 +5,37 @@ document.addEventListener('DOMContentLoaded', () => {
     populateTypeDropdowns();
 
     document.getElementById('calculate-button').addEventListener('click', calculateCounter);
+
+    // Add event listeners for toggle buttons
+    document.getElementById('show-counters-button').addEventListener('click', () => {
+        showSection('type-counters');
+    });
+
+    document.getElementById('show-calculator-button').addEventListener('click', () => {
+        showSection('type-calculator');
+    });
 });
+
+// Function to show the desired section and hide the other
+function showSection(sectionId) {
+    const countersSection = document.getElementById('type-counters');
+    const calculatorSection = document.getElementById('type-calculator');
+    const showCountersButton = document.getElementById('show-counters-button');
+    const showCalculatorButton = document.getElementById('show-calculator-button');
+
+    if (sectionId === 'type-counters') {
+        countersSection.classList.remove('hidden');
+        calculatorSection.classList.add('hidden');
+        showCountersButton.classList.add('active');
+        showCalculatorButton.classList.remove('active');
+    } else if (sectionId === 'type-calculator') {
+        calculatorSection.classList.remove('hidden');
+        countersSection.classList.add('hidden');
+        showCalculatorButton.classList.add('active');
+        showCountersButton.classList.remove('active');
+    }
+}
+
 
 // Load type counter relationships from types.csv and display in the table
 function loadTypeCounters() {
@@ -34,29 +64,23 @@ function displayTypeCounters(types) {
         typeCell.innerHTML = `
             <span class="type">
                 ${capitalize(type.Name)} 
-                <img src="images/types/${type.Name.toLowerCase()}.svg" alt="${capitalize(type.Name)} Type" class="type-icon">
+                <div class="icon ${type.Name.toLowerCase()}">
+                    <img src="images/types/${type.Name.toLowerCase()}.svg" alt="${capitalize(type.Name)} Type" class="type-icon">
+                </div>
             </span>
         `;
 
         const strongAgainstCell = document.createElement('td');
-        strongAgainstCell.innerHTML = type.Strong_Against
-            ? type.Strong_Against.split(',').map(t => formatType(t)).join(', ')
-            : 'None';
+        strongAgainstCell.innerHTML = formatRelationship(type.Strong_Against);
 
         const weakAgainstCell = document.createElement('td');
-        weakAgainstCell.innerHTML = type.Weak_Against
-            ? type.Weak_Against.split(',').map(t => formatType(t)).join(', ')
-            : 'None';
+        weakAgainstCell.innerHTML = formatRelationship(type.Weak_Against);
 
         const resistantToCell = document.createElement('td');
-        resistantToCell.innerHTML = type.Resistant_To
-            ? type.Resistant_To.split(',').map(t => formatType(t)).join(', ')
-            : 'None';
+        resistantToCell.innerHTML = formatRelationship(type.Resistant_To);
 
         const vulnerableToCell = document.createElement('td');
-        vulnerableToCell.innerHTML = type.Vulnerable_To
-            ? type.Vulnerable_To.split(',').map(t => formatType(t)).join(', ')
-            : 'None';
+        vulnerableToCell.innerHTML = formatRelationship(type.Vulnerable_To);
 
         // Append cells to the row
         row.appendChild(typeCell);
@@ -69,7 +93,34 @@ function displayTypeCounters(types) {
     });
 }
 
-// Populate type dropdowns for the calculator
+// Helper function to format relationship fields
+function formatRelationship(relationship) {
+    if (!relationship || relationship.trim().toLowerCase() === 'none') {
+        return 'None';
+    }
+    return relationship.split(',').map(t => formatType(t)).join(', ');
+}
+
+// Helper functions
+function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+function formatType(type) {
+    const trimmedType = type.trim();
+    if (trimmedType.toLowerCase() === 'none') {
+        return 'None';
+    }
+    return `
+        <span class="type">
+            <div class="icon ${trimmedType.toLowerCase()}">
+                <img src="images/types/${trimmedType.toLowerCase()}.svg" alt="${capitalize(trimmedType)} Type" class="type-icon">
+            </div>
+            ${capitalize(trimmedType)}
+        </span>
+    `;
+}
+
 function populateTypeDropdowns() {
     Papa.parse('types.csv', {
         download: true,
@@ -96,7 +147,6 @@ function populateSelectOptions(selectId, types) {
     });
 }
 
-// Calculate the counter effectiveness based on selected types
 function calculateCounter() {
     const type1 = document.getElementById('type1').value;
     const type2 = document.getElementById('type2').value;
@@ -134,13 +184,21 @@ function getMultiplier(typesData, type1, type2) {
         const t1 = typesData.find(t => t.Name.toLowerCase() === type1);
         if (t1) {
             // Strong against: deals double damage
-            t1.Strong_Against.split(',').forEach(t => {
-                if (t) multiplierMap[t.trim().toLowerCase()] *= 2;
-            });
+            if (t1.Strong_Against && t1.Strong_Against.toLowerCase() !== 'none') {
+                t1.Strong_Against.split(',').forEach(t => {
+                    if (t && t.trim().toLowerCase() !== 'none') {
+                        multiplierMap[t.trim().toLowerCase()] *= 2;
+                    }
+                });
+            }
             // Weak against: deals half damage
-            t1.Weak_Against.split(',').forEach(t => {
-                if (t) multiplierMap[t.trim().toLowerCase()] *= 0.5;
-            });
+            if (t1.Weak_Against && t1.Weak_Against.toLowerCase() !== 'none') {
+                t1.Weak_Against.split(',').forEach(t => {
+                    if (t && t.trim().toLowerCase() !== 'none') {
+                        multiplierMap[t.trim().toLowerCase()] *= 0.5;
+                    }
+                });
+            }
         }
     }
 
@@ -149,13 +207,21 @@ function getMultiplier(typesData, type1, type2) {
         const t2 = typesData.find(t => t.Name.toLowerCase() === type2);
         if (t2) {
             // Strong against: deals double damage
-            t2.Strong_Against.split(',').forEach(t => {
-                if (t) multiplierMap[t.trim().toLowerCase()] *= 2;
-            });
+            if (t2.Strong_Against && t2.Strong_Against.toLowerCase() !== 'none') {
+                t2.Strong_Against.split(',').forEach(t => {
+                    if (t && t.trim().toLowerCase() !== 'none') {
+                        multiplierMap[t.trim().toLowerCase()] *= 2;
+                    }
+                });
+            }
             // Weak against: deals half damage
-            t2.Weak_Against.split(',').forEach(t => {
-                if (t) multiplierMap[t.trim().toLowerCase()] *= 0.5;
-            });
+            if (t2.Weak_Against && t2.Weak_Against.toLowerCase() !== 'none') {
+                t2.Weak_Against.split(',').forEach(t => {
+                    if (t && t.trim().toLowerCase() !== 'none') {
+                        multiplierMap[t.trim().toLowerCase()] *= 0.5;
+                    }
+                });
+            }
         }
     }
 
@@ -181,8 +247,10 @@ function displayCalculationResult(multiplierMap) {
             resultHTML += `
                 <li>
                     <span class="type">
+                        <div class="icon ${type.toLowerCase()}">
+                            <img src="images/types/${type}.svg" alt="${capitalize(type)} Type" class="type-icon">
+                        </div>
                         ${capitalize(type)} 
-                        <img src="images/types/${type}.svg" alt="${capitalize(type)} Type" class="type-icon">
                     </span>
                     <span class="multiplier">x${multiplierMap[type]}</span>
                 </li>
@@ -199,8 +267,10 @@ function displayCalculationResult(multiplierMap) {
             resultHTML += `
                 <li>
                     <span class="type">
+                        <div class="icon ${type.toLowerCase()}">
+                            <img src="images/types/${type}.svg" alt="${capitalize(type)} Type" class="type-icon">
+                        </div>
                         ${capitalize(type)} 
-                        <img src="images/types/${type}.svg" alt="${capitalize(type)} Type" class="type-icon">
                     </span>
                     <span class="multiplier">x${multiplierMap[type]}</span>
                 </li>
@@ -212,18 +282,4 @@ function displayCalculationResult(multiplierMap) {
     }
 
     resultDiv.innerHTML = resultHTML;
-}
-
-// Helper functions
-function capitalize(str) {
-    return str.charAt(0).toUpperCase() + str.slice(1);
-}
-
-function formatType(type) {
-    return `
-        <span class="type">
-            ${capitalize(type.trim())}
-            <img src="images/types/${type.trim().toLowerCase()}.svg" alt="${capitalize(type.trim())} Type" class="type-icon">
-        </span>
-    `;
 }
