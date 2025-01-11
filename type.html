@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type Counter Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="icon.css"> <!-- Ensure type icons are styled -->
+</head>
+<body>
+    <div class="type-calculator-container">
+        <a href="index.html" class="back-button">← Back to Pokédex</a>
+        <h1>Type Counter Calculator</h1>
+
+        <!-- Type Counter Relationships Table -->
+        <section id="type-counters" class="type-counters">
+            <h2>Type Counter Relationships</h2>
+            <table id="counters-table">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Strong Against</th>
+                        <th>Weak Against</th>
+                        <th>Resistant To</th>
+                        <th>Vulnerable To</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Type relationships will be dynamically inserted here -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Type Calculator -->
+        <section id="type-calculator" class="type-calculator">
+            <h2>Calculate Counters</h2>
+            <div class="calculator-inputs">
+                <div class="type-select">
+                    <label for="type1">Type 1:</label>
+                    <select id="type1">
+                        <option value="">Select Type</option>
+                        <!-- Type options will be dynamically inserted here -->
+                    </select>
+                </div>
+                <div class="type-select">
+                    <label for="type2">Type 2:</label>
+                    <select id="type2">
+                        <option value="">Select Type</option>
+                        <!-- Type options will be dynamically inserted here -->
+                    </select>
+                </div>
+            </div>
+            <button id="calculate-button">Calculate Counter</button>
+            <div id="calculation-result" class="calculation-result">
+                <!-- Calculation result will be displayed here -->
+            </div>
+        </section>
+    </div>
+
+    <!-- Include Papa Parse Library -->
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+    <script src="type.js"></script>
+</body>
+</html>

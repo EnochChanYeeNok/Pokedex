@@ -12,6 +12,8 @@
         <div class="search-container">
             <input type="text" id="pokemon-input" placeholder="Enter Pokémon name or ID">
             <button id="search-button">Search</button>
+            <!-- Added Type Calculator Button -->
+            <button id="type-calculator-button">Type Calculator</button>
         </div>
         <div id="pokemon-data" class="pokemon-data">
             <!-- Pokémon details will be displayed here -->
@@ -24,5 +26,11 @@
     <!-- Include Papa Parse Library -->
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        // Add event listener for the Type Calculator button
+        document.getElementById('type-calculator-button').addEventListener('click', () => {
+            window.location.href = 'type.html';
+        });
+    </script>
 </body>
 </html>
