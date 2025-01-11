@@ -142,7 +142,80 @@ h1 {
 
 .detail-image {
     width: 200px;
-    height: 200px;
+    height: auto;
+}
+
+/* Style for collapsible details */
+details {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+summary {
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+
+summary::marker {
+    display: none;
+}
+
+summary::before {
+    content: '▶';
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.2s;
+}
+
+details[open] summary::before {
+    transform: rotate(90deg);
+}
+
+summary:hover {
+    color: #007BFF;
+}
+
+/* Style for type elements */
+.type {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+.type-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+}
+
+/* Style tables inside details */
+details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+details th, details td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+details th {
+    background-color: #f2f2f2;
+}
+
+/* Style for additional sprites images */
+.additional-sprite {
+    width: 100px;
+    height: auto;
 }
 
 .pokemon-details h2 {

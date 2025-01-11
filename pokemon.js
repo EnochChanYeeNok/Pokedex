@@ -36,13 +36,27 @@ function fetchPokemonDetails(id) {
 
 function displayBasicDetails(pokemon) {
     const detailsDiv = document.getElementById('pokemon-details');
+    
+    // Split types and trim whitespace
+    const types = pokemon.types.split(',').map(type => type.trim());
+
+    // Generate HTML for type names and images
+    const typeElements = types.map(type => `
+        <span class="type">
+            <div class="icon ${type.toLowerCase()}">
+                <img src="images/types/${type.toLowerCase()}.svg" alt="${capitalize(type)} Type" class="type-icon">
+            </div>
+            ${capitalize(type)}    
+        </span>
+    `).join(' ');
+
     detailsDiv.innerHTML = `
         <img src="${pokemon.image}" alt="${pokemon.name}" class="detail-image">
         <h2>${capitalize(pokemon.name)} (#${pokemon.id})</h2>
         <ul>
             <li><strong>Height:</strong> ${pokemon.height_m} m</li>
             <li><strong>Weight:</strong> ${pokemon.weight_kg} kg</li>
-            <li><strong>Types:</strong> ${pokemon.types}</li>
+            <li><strong>Types:</strong> ${typeElements}</li>
             <li><strong>Abilities:</strong> ${pokemon.abilities}</li>
         </ul>
     `;
@@ -71,38 +85,91 @@ function fetchAdditionalDetails(id) {
 
 function displayStats(stats) {
     const statsDiv = document.getElementById('pokemon-stats');
-    statsDiv.innerHTML = `
-        <h3>Stats</h3>
-        <ul>
-            ${stats.map(stat => `<li><strong>${capitalize(stat.stat.name)}:</strong> ${stat.base_stat}</li>`).join('')}
-        </ul>
+    const statsTable = `
+        <details>
+            <summary>Stats</summary>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Stat</th>
+                        <th>Base Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${stats.map(stat => `
+                        <tr>
+                            <td>${capitalize(stat.stat.name)}</td>
+                            <td>${stat.base_stat}</td>
+                        </tr>
+                    `).join('')}
+                </tbody>
+            </table>
+        </details>
     `;
+    statsDiv.innerHTML = statsTable;
 }
 
 function displayMoves(moves) {
     const movesDiv = document.getElementById('pokemon-moves');
-    const moveList = moves.map(m => capitalize(m.move.name)).join(', ');
-    movesDiv.innerHTML = `
-        <h3>Moves</h3>
-        <p>${moveList}</p>
+    const movesTable = `
+        <details>
+            <summary>Moves</summary>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Move Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${moves.map(m => `
+                        <tr>
+                            <td>${capitalize(m.move.name)}</td>
+                        </tr>
+                    `).join('')}
+                </tbody>
+            </table>
+        </details>
     `;
+    movesDiv.innerHTML = movesTable;
 }
 
 function displayAdditionalSprites(sprites) {
     const spritesDiv = document.getElementById('pokemon-sprites');
-    spritesDiv.innerHTML = `
-        <h3>Additional Sprites</h3>
-        <img src="${sprites.back_default}" alt="Back view of ${capitalize(sprites.back_default ? 'Pokémon' : 'Unavailable')}" class="additional-sprite">
-        <img src="${sprites.front_shiny}" alt="Shiny front view of ${capitalize(sprites.front_shiny ? 'Pokémon' : 'Unavailable')}" class="additional-sprite">
-        <img src="${sprites.back_shiny}" alt="Shiny back view of ${capitalize(sprites.back_shiny ? 'Pokémon' : 'Unavailable')}" class="additional-sprite">
+    const spritesTable = `
+        <details>
+            <summary>Additional Sprites</summary>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sprite</th>
+                        <th>Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Back Default</td>
+                        <td><img src="${sprites.back_default}" alt="Back view of Pokémon" class="additional-sprite"></td>
+                    </tr>
+                    <tr>
+                        <td>Front Shiny</td>
+                        <td><img src="${sprites.front_shiny}" alt="Shiny front view of Pokémon" class="additional-sprite"></td>
+                    </tr>
+                    <tr>
+                        <td>Back Shiny</td>
+                        <td><img src="${sprites.back_shiny}" alt="Shiny back view of Pokémon" class="additional-sprite"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </details>
     `;
+    spritesDiv.innerHTML = spritesTable;
 }
 
 function showError(message) {
-    const detailsDiv = document.getElementById('pokemon-details');
-    detailsDiv.innerHTML = `<p class="error">${message}</p>`;
+    const container = document.querySelector('.pokemon-details-container');
+    container.innerHTML = `<p class="error">${message}</p>`;
 }
 
-function capitalize(str) {
-    return str.charAt(0).toUpperCase() + str.slice(1);
+function capitalize(word) {
+    return word.charAt(0).toUpperCase() + word.slice(1);
 }
