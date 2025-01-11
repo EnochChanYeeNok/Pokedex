@@ -21,7 +21,8 @@ function fetchPokemonDetails(id) {
             const pokemon = pokemons.find(p => p.id === id || p.name.toLowerCase() === id.toLowerCase());
 
             if (pokemon) {
-                displayPokemonDetails(pokemon);
+                displayBasicDetails(pokemon);
+                fetchAdditionalDetails(id);
             } else {
                 showError('Pokémon not found.');
             }
@@ -33,7 +34,7 @@ function fetchPokemonDetails(id) {
     });
 }
 
-function displayPokemonDetails(pokemon) {
+function displayBasicDetails(pokemon) {
     const detailsDiv = document.getElementById('pokemon-details');
     detailsDiv.innerHTML = `
         <img src="${pokemon.image}" alt="${pokemon.name}" class="detail-image">
@@ -44,6 +45,56 @@ function displayPokemonDetails(pokemon) {
             <li><strong>Types:</strong> ${pokemon.types}</li>
             <li><strong>Abilities:</strong> ${pokemon.abilities}</li>
         </ul>
+    `;
+}
+
+function fetchAdditionalDetails(id) {
+    const apiUrl = `https://pokeapi.co/api/v2/pokemon/${id}/`;
+
+    fetch(apiUrl)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Additional data not found');
+            }
+            return response.json();
+        })
+        .then(data => {
+            displayStats(data.stats);
+            displayMoves(data.moves);
+            displayAdditionalSprites(data.sprites);
+        })
+        .catch(error => {
+            console.error('Error fetching additional data:', error);
+            // Optionally, display an error message or fallback content
+        });
+}
+
+function displayStats(stats) {
+    const statsDiv = document.getElementById('pokemon-stats');
+    statsDiv.innerHTML = `
+        <h3>Stats</h3>
+        <ul>
+            ${stats.map(stat => `<li><strong>${capitalize(stat.stat.name)}:</strong> ${stat.base_stat}</li>`).join('')}
+        </ul>
+    `;
+}
+
+function displayMoves(moves) {
+    const movesDiv = document.getElementById('pokemon-moves');
+    const moveList = moves.map(m => capitalize(m.move.name)).join(', ');
+    movesDiv.innerHTML = `
+        <h3>Moves</h3>
+        <p>${moveList}</p>
+    `;
+}
+
+function displayAdditionalSprites(sprites) {
+    const spritesDiv = document.getElementById('pokemon-sprites');
+    spritesDiv.innerHTML = `
+        <h3>Additional Sprites</h3>
+        <img src="${sprites.back_default}" alt="Back view of ${capitalize(sprites.back_default ? 'Pokémon' : 'Unavailable')}" class="additional-sprite">
+        <img src="${sprites.front_shiny}" alt="Shiny front view of ${capitalize(sprites.front_shiny ? 'Pokémon' : 'Unavailable')}" class="additional-sprite">
+        <img src="${sprites.back_shiny}" alt="Shiny back view of ${capitalize(sprites.back_shiny ? 'Pokémon' : 'Unavailable')}" class="additional-sprite">
     `;
 }
 

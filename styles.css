@@ -89,6 +89,7 @@ h1 {
     padding: 10px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
 }
 
 .pokemon-card img {
@@ -106,6 +107,11 @@ h1 {
     margin: 0;
     font-size: 14px;
     color: #333;
+}
+
+.pokemon-card:hover {
+    cursor: pointer;
+    background-color: #e9e9e9;
 }
 
 /* Detailed Pokémon Page Styles */
@@ -156,6 +162,42 @@ h1 {
     font-size: 18px;
 }
 
+.pokemon-stats, .pokemon-moves, .pokemon-sprites {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.pokemon-stats h3, .pokemon-moves h3, .pokemon-sprites h3 {
+    color: #3b4cca;
+    margin-bottom: 10px;
+}
+
+.pokemon-stats ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pokemon-stats li {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.pokemon-moves p {
+    font-size: 16px;
+}
+
+.pokemon-sprites img {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    border: 2px solid #3b4cca;
+    border-radius: 10px;
+}
+
+.pokemon-sprites img:last-child {
+    margin-right: 0;
+}
+
 .error {
     color: red;
     font-weight: bold;
@@ -163,7 +205,38 @@ h1 {
     font-size: 20px;
 }
 
-.pokemon-card.selected {
-    border-color: #ff0000;
-    box-shadow: 0 0 10px #ff0000;
+/* Transition and Hover Effects for Pokémon Cards */
+.pokemon-card {
+    background-color: #ffffff; /* Default background */
+    border: 2px solid #3b4cca;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.pokemon-card img {
+    width: 100px;
+    height: 100px;
+}
+
+.pokemon-card h3 {
+    text-transform: capitalize;
+    color: #3b4cca;
+    margin: 10px 0 5px 0;
+}
+
+.pokemon-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Hover Effects for Pokémon Cards */
+.pokemon-card:hover {
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #f0f0f0; /* Light grey background on hover */
+    transform: translateY(-5px); /* Slight lift effect on hover */
 }
