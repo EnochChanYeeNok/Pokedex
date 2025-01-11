@@ -6,6 +6,7 @@ document.getElementById('pokemon-input').addEventListener('keypress', function(e
         fetchPokemon();
     }
 });
+document.getElementById('load-all-button').addEventListener('click', loadAllPokemons);
 
 function fetchPokemon() {
     const query = document.getElementById('pokemon-input').value.toLowerCase().trim();
@@ -43,4 +44,40 @@ function displayPokemon(pokemon) {
         </ul>
     `;
     pokemonDataDiv.style.display = 'block';
+}
+
+function loadAllPokemons() {
+    Papa.parse('pokemons.csv', {
+        download: true,
+        header: true,
+        complete: function(results) {
+            displayAllPokemons(results.data);
+        },
+        error: function(error) {
+            console.error('Error loading CSV file:', error);
+            alert('Failed to load Pokémon data.');
+        }
+    });
+}
+
+function displayAllPokemons(pokemons) {
+    const allPokemonsDiv = document.getElementById('all-pokemons');
+    allPokemonsDiv.innerHTML = ''; // Clear previous content
+
+    pokemons.forEach(pokemon => {
+        // Handle potential missing data
+        if (!pokemon.id || !pokemon.name || !pokemon.image) return;
+
+        const card = document.createElement('div');
+        card.classList.add('pokemon-card');
+
+        card.innerHTML = `
+            <img src="${pokemon.image}" alt="${pokemon.name}">
+            <h3>${pokemon.name}</h3>
+            <p>#${pokemon.id}</p>
+            <p>Type: ${pokemon.types}</p>
+        `;
+
+        allPokemonsDiv.appendChild(card);
+    });
 }

@@ -12,12 +12,18 @@
         <div class="search-container">
             <input type="text" id="pokemon-input" placeholder="Enter Pokémon name or ID">
             <button id="search-button">Search</button>
+            <button id="load-all-button">Load All Pokémon</button>
         </div>
         <div id="pokemon-data" class="pokemon-data">
             <!-- Pokémon details will be displayed here -->
         </div>
+        <div id="all-pokemons" class="all-pokemons">
+            <!-- All Pokémon will be displayed here -->
+        </div>
     </div>
 
+    <!-- Include Papa Parse Library -->
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
